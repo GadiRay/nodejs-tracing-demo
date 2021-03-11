@@ -1,0 +1,10 @@
+{"time":1603443185912,"message":"Getting user name with id 3 from DB","serviceName":"Service1","requestId":"98b69e88-ac17-42f9-b6ac-f1f866036543"}
+{"time":1603443185912,"message":"Got user name of Summer from id 3","serviceName":"Service1","requestId":"98b69e88-ac17-42f9-b6ac-f1f866036543"}
+{"time":1603443185913,"message":"Calling Service2","serviceName":"Service1","requestId":"98b69e88-ac17-42f9-b6ac-f1f866036543"}
+{"time":1603443185916,"message":"start handling request","serviceName":"service2","requestId":"98b69e88-ac17-42f9-b6ac-f1f866036543"}
+{"time":1603443185916,"message":"Calling Service3","serviceName":"Service2","requestId":"98b69e88-ac17-42f9-b6ac-f1f866036543"}
+{"time":1603443185919,"message":"start handling request","serviceName":"Service3","requestId":"98b69e88-ac17-42f9-b6ac-f1f866036543"}
+{"time":1603443185919,"message":"done handling request","serviceName":"Service3","requestId":"98b69e88-ac17-42f9-b6ac-f1f866036543"}
+{"time":1603443185920,"message":"Got response from Service3","service3":"Hello from Service 3","serviceName":"Service2","requestId":"98b69e88-ac17-42f9-b6ac-f1f866036543"}
+{"time":1603443185920,"message":"done handling request","serviceName":"service2","requestId":"98b69e88-ac17-42f9-b6ac-f1f866036543"}
+{"time":1603443185921,"message":"Got response from Service2","service2":"Hello from Service 2","service3":"Hello from Service 3","serviceName":"Service1","requestId":"98b69e88-ac17-42f9-b6ac-f1f866036543"}
